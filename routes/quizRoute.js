@@ -6,6 +6,7 @@ module.exports = app => {
     app.get('/quiz/categorias', listarCategorias);
     app.get('/quiz/idiomas', getIdiomasDisponiveis);
 
+    app.get('/quiz/:lang', listarPerguntas);
     app.get('/quiz/:lang/:category', listarPerguntas);
     app.get('/quiz', listarPerguntas);
 }
