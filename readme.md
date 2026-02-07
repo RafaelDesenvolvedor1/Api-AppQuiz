@@ -34,8 +34,9 @@ A estrutura foi organizada para garantir que a lógica de negócio seja independ
 ## 🛠️ Como rodar o projeto
 
 1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/RafaelDesenvolvedor1/Api-AppQuiz.git](https://github.com/RafaelDesenvolvedor1/Api-AppQuiz.git)
+```bash
+ git clone [https://github.com/RafaelDesenvolvedor1/Api-AppQuiz.git](https://github.com/RafaelDesenvolvedor1/Api-AppQuiz.git)
+```
 
 
 2. **Instale as dependências:**
