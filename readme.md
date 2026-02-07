@@ -57,4 +57,4 @@ npm start
 
 - [ ] Sistema de Cache para otimização das chamadas de tradução.
 
-Desenvolvido por Rafael Santos
+Desenvolvido por [Rafael Santos](https://rafaeldev2001.com)
