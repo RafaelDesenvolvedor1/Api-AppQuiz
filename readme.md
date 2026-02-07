@@ -25,7 +25,7 @@ A estrutura foi organizada para garantir que a lógica de negócio seja independ
 
 | Rota | Descrição |
 | :--- | :--- |
-| `GET /quiz` | Retorna 5 perguntas aleatórias em Português. |
+| `GET /quiz` | Retorna 10 perguntas aleatórias em Português. |
 | `GET /quiz/:lang` | Retorna perguntas no idioma especificado (ex: `/quiz/en`). |
 | `GET /quiz/:lang/:category` | Filtra perguntas por categoria e idioma (ex: `/quiz/pt/18`). |
 | `GET /quiz/categorias` | Lista todas as categorias oficiais e seus IDs. |
