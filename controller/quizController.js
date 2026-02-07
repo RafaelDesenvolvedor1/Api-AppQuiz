@@ -8,7 +8,7 @@ module.exports = app => {
             // Faz requisição na api do Open Trivia DB
             try {
         
-                const idiomaDestino = req.params.lang || 'pt';
+                const idiomaDestino = req.params.lang || 'en';
                 const categoria = req.params.category || null;
 
                 let url = 'https://opentdb.com/api.php?amount=10&type=multiple';
