@@ -14,7 +14,7 @@ Este projeto foi desenvolvido com foco em **Padrões de Projeto (Design Patterns
 ## 🏗️ Arquitetura do Projeto (Padrão MSC)
 A estrutura foi organizada para garantir que a lógica de negócio seja independente da infraestrutura:
 
-- **Models**: Contém a classe `Pergunta`, responsável pela estrutura do dado e pela "Fábrica de Objetos" que padroniza o JSON.
+- **Models**: Contém a classe `Quest`, responsável pela estrutura do dado e pela "Fábrica de Objetos" que padroniza o JSON.
 - **Services**: Camada isolada para a lógica de tradução, permitindo fácil substituição de bibliotecas.
 - **Controllers**: Gerencia as requisições, orquestra os serviços e envia as respostas.
 - **Routes**: Endpoints dinâmicos com suporte a parâmetros de rota (Route Params) e Regex.
@@ -25,8 +25,8 @@ A estrutura foi organizada para garantir que a lógica de negócio seja independ
 
 | Rota | Descrição |
 | :--- | :--- |
-| `GET /quiz` | Retorna 10 perguntas aleatórias em Português. |
-| `GET /quiz/:lang` | Retorna perguntas no idioma especificado (ex: `/quiz/en`). |
+| `GET /quiz` | Retorna 10 perguntas aleatórias em Inglês. |
+| `GET /quiz/:lang` | Retorna perguntas no idioma especificado (ex: `/quiz/pt`). |
 | `GET /quiz/:lang/:category` | Filtra perguntas por categoria e idioma (ex: `/quiz/pt/18`). |
 | `GET /quiz/categorias` | Lista todas as categorias oficiais e seus IDs. |
 | `GET /quiz/idiomas` | Lista todos os códigos de idiomas suportados pela tradução. |
@@ -56,7 +56,5 @@ npm start
 - [ ] Middleware para validação de códigos de idioma via Regex.
 
 - [ ] Sistema de Cache para otimização das chamadas de tradução.
-
-- [ ] Integração total com o App Android (Java/Retrofit).
 
 Desenvolvido por Rafael Santos
